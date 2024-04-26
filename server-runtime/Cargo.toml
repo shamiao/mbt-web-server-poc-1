@@ -1,0 +1,19 @@
+# Rust Cargo config file
+#
+# schema: https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "server-runtime"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "Apache-2.0"
+
+[dependencies]
+anyhow = "1.0"
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "1", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+wasmtime = { version = "20.0.0", features = [] }
+bytes = "1"
