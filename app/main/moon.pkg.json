@@ -1,0 +1,9 @@
+{
+  "is_main": true,
+  "import": [],
+  "link": {
+    "wasm": {
+      "exports": ["http_entrypoint"]
+    }
+  }
+}
